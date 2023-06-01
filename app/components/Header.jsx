@@ -1,12 +1,12 @@
+import { MdSchool } from 'react-icons/md';
+
 const Header = () => {
   return (
-    <header className='bg-[#fafafa] h-[80px] flex justify-center items-center'>
-      <div>
-        <div className='bg-[#2D5267] w-[45px] h-[30px] inline-block'></div>
-        <div className='inline-block text-[#2D5267]'>
-          <h1 className='font-bold'>LOREM IPSUM SCHOOLS</h1>
-          <p className='text-xs'>Knowledge and Morals</p>
-        </div>
+    <header className='bg-[#fafafa] h-[80px] md:h-[100px] flex flex-row gap-[1rem] md:gap-[2rem] items-center justify-center'>
+      <MdSchool className='bg-[transparent] text-5xl md:text-8xl' />
+      <div className='text-[#2D5267]'>
+        <h1 className='font-bold md:font-normal md:text-4xl'>LOREM IPSUM SCHOOLS</h1>
+        <p className='text-xs md:text-2xl'>Knowledge and Morals</p>
       </div>
     </header>
   );

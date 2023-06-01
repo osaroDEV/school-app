@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <div
       onClick={handleClick}
-      className='text-5xl bg-[#103356] text-white w-[20%] h-full flex justify-center items-center'
+      className='text-5xl bg-[#103356] text-white w-[20%] md:w-[50%] h-full flex justify-center items-center'
     >
       {isOpen ? <FiX /> : <FiMenu />}
     </div>

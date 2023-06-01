@@ -14,8 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Header />
-        <NavSearch />
+        <section className='flex flex-col md:flex-col-reverse'>
+          <Header />
+          <NavSearch />
+        </section>
+
         <main>{children}</main>
       </body>
     </html>
