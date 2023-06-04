@@ -17,30 +17,18 @@ const MoreLinks = () => {
       <p>{isMore ? 'Less links' : 'More links'}</p>
       <MdOutlineNavigateNext className='text-[#f1c40f] text-2xl' />
       {isMore && (
-        <ul className='flex flex-col justify-around items-center absolute w-full h-[600%] bg-[#103356] top-[-310px] left-0'>
-          <li>
-            <span className='font-bold text-2xl'>
-              About
-              <hr className='border-[#ffffaa] w-full' />
-            </span>
+        <ul className='flex flex-col justify-around items-center absolute w-full h-auto bg-[#103356] top-[-220px] left-0'>
+          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+            About
           </li>
-          <li>
-            <span className='font-bold text-2xl'>
-              Academics
-              <hr className='border-[#ffffaa] w-full' />
-            </span>
+          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+            Academics
           </li>
-          <li>
-            <span className='font-bold text-2xl'>
-              Admissions
-              <hr className='border-[#ffffaa] w-full' />
-            </span>
+          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+            Admissions
           </li>
-          <li>
-            <span className='font-bold text-2xl'>
-              Campus Life
-              <hr className='border-[#ffffaa] w-full' />
-            </span>
+          <li className='indent-[.5rem] border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+            Campus Life
           </li>
         </ul>
       )}
