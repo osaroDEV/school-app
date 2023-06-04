@@ -17,16 +17,31 @@ const MoreLinks = () => {
       <p>{isMore ? 'Less links' : 'More links'}</p>
       <MdOutlineNavigateNext className='text-[#f1c40f] text-2xl' />
       {isMore && (
-        <ul className=' absolute w-full h-[800%] bg-[#103356] top-[-410px] left-0'>
-          <li>bjhk</li>
-          <hr className='border-[#f1c40f] w-[90%]' />
-          <li>sdsd</li>
-          <li>fvf</li>
-          <li>fvfs</li>
-          <li>vfs</li>
-          <li>vfsv</li>
-          <li>vfs</li>
-          <li>fvsf</li>
+        <ul className='flex flex-col justify-around items-center absolute w-full h-[600%] bg-[#103356] top-[-310px] left-0'>
+          <li>
+            <span className='font-bold text-2xl'>
+              About
+              <hr className='border-[#ffffaa] w-full' />
+            </span>
+          </li>
+          <li>
+            <span className='font-bold text-2xl'>
+              Academics
+              <hr className='border-[#ffffaa] w-full' />
+            </span>
+          </li>
+          <li>
+            <span className='font-bold text-2xl'>
+              Admissions
+              <hr className='border-[#ffffaa] w-full' />
+            </span>
+          </li>
+          <li>
+            <span className='font-bold text-2xl'>
+              Campus Life
+              <hr className='border-[#ffffaa] w-full' />
+            </span>
+          </li>
         </ul>
       )}
     </div>
