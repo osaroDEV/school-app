@@ -1,9 +1,10 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 import Header from './components/Header';
 import NavSearch from './components/NavSearch';
+import Footer from './components/Footer';
 
-const inter = Inter({ subsets: ['latin'] });
+const open = Open_Sans({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Lorem Ipsum Schools',
@@ -13,13 +14,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={open.className}>
         <section className='flex flex-col md:flex-col-reverse'>
           <Header />
           <NavSearch />
         </section>
-
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
