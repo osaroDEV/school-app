@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 import { FiMenu, FiX } from 'react-icons/fi';
 
@@ -17,18 +18,21 @@ const Nav = () => {
     >
       {isOpen ? <FiX /> : <FiMenu />}
       {isOpen && (
-        <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-210px] left-[-400%]'>
+        <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-260px] left-[-400%]'>
           <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            About
+            <Link href='/'>Home</Link>
           </li>
           <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            Academics
+            <Link href='/about'>About</Link>
           </li>
           <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            Admissions
+            <Link href='/academics'>Academics</Link>
+          </li>
+          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+            <Link href='/admissions'>Admissions</Link>
           </li>
           <li className='indent-[.5rem] border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            Campus Life
+            <Link href='/campuslife'>Campus Life</Link>
           </li>
         </ul>
       )}
