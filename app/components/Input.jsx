@@ -11,7 +11,7 @@ const Input = () => {
 
   return (
     <div className='flex justify-center h-[50px] w-[80%] md:order-[2] md:w-[50%]'>
-      <div className='h-full w-[80%] relative'>
+      <div className='h-full w-[70%] relative'>
         <input
           type='text'
           placeholder='SEARCH'

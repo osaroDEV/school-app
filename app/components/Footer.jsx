@@ -32,7 +32,7 @@ const Footer = () => {
       </section>
       <hr className='border w-[90%] border-[#019cde]' />
       <section>
-        <p className='text-sm text-[rgba(0,0,0,0.6)]'>
+        <p className='text-sm text-[rgba(0,0,0,0.6)] mb-16'>
           &copy;2023 Lorem Ipsum Schools
         </p>
       </section>
