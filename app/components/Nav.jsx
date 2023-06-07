@@ -19,21 +19,31 @@ const Nav = () => {
       {isOpen ? <FiX /> : <FiMenu />}
       {isOpen && (
         <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-260px] left-[-400%]'>
-          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            <Link href='/'>Home</Link>
-          </li>
-          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            <Link href='/about'>About</Link>
-          </li>
-          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            <Link href='/academics'>Academics</Link>
-          </li>
-          <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            <Link href='/admissions'>Admissions</Link>
-          </li>
-          <li className='indent-[.5rem] border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
-            <Link href='/campuslife'>Campus Life</Link>
-          </li>
+          <Link href='/'>
+            <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+              Home
+            </li>
+          </Link>
+          <Link href='/about'>
+            <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+              About
+            </li>
+          </Link>
+          <Link href='/academics'>
+            <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+              Academics
+            </li>
+          </Link>
+          <Link href='/admissions'>
+            <li className='indent-[.5rem] border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+              Admissions
+            </li>
+          </Link>
+          <Link href='/campuslife'>
+            <li className='indent-[.5rem] border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
+              Campus Life
+            </li>
+          </Link>
         </ul>
       )}
     </div>
