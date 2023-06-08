@@ -18,7 +18,7 @@ const Nav = () => {
     >
       {isOpen ? <FiX className='cursor-pointer' /> : <FiMenu className='cursor-pointer' />}
       {isOpen && (
-        <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-260px] left-[-400%]'>
+        <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-263px] left-[-400%] md:left-[-620px] md:w-[697px] lg:w-[512px] lg:left-[-410px]'>
           <Link href='/' className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>
             <li className='indent-[.5rem]'>
               Home
