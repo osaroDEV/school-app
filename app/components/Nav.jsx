@@ -16,7 +16,7 @@ const Nav = () => {
       onClick={handleClick}
       className='text-5xl bg-[#103356] text-white w-[20%] md:w-[50%] h-full flex justify-center items-center relative'
     >
-      {isOpen ? <FiX /> : <FiMenu />}
+      {isOpen ? <FiX className='cursor-pointer' /> : <FiMenu className='cursor-pointer' />}
       {isOpen && (
         <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-260px] left-[-400%]'>
           <Link href='/' className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'>

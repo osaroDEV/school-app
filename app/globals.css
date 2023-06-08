@@ -31,3 +31,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.wrapper {
+  @apply w-full md:w-[40px] flex md:flex-col fixed bottom-0 md:right-0 md:bottom-[10%]
+}

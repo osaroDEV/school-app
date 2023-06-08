@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 
 const Socials = () => {
   return (
-    <section className='w-full md:w-[40px] flex md:flex-col fixed bottom-0 md:right-0 md:bottom-[10%]'>
+    <section className='wrapper'>
       <span className='flex justify-center items-center w-[25%] md:w-full h-[40px] bg-[#3b5998]'>
         <FaFacebookF className='text-white text-2xl' />
       </span>
