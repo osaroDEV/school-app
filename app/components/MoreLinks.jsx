@@ -53,36 +53,36 @@ const MoreLinks = () => {
           </ul>
         )}
       </div>
-      <ul className='hidden flex-col justify-around items-center w-[33%] h-auto bg-[#103356] text-[#F1c40F]  lg:flex'>
+      <ul className='hidden flex-col justify-center items-center w-[33%] h-auto text-[#2d5267] lg:flex'>
         <Link
           href='/'
-          className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'
+          className='font-bold p-[.75rem_0] text-[20px]'
         >
-          <li className='indent-[.5rem]'>Home</li>
+          <li>Home</li>
         </Link>
         <Link
           href='/about'
-          className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'
+          className='font-bold p-[.75rem_0] text-[20px]'
         >
-          <li className='indent-[.5rem]'>About</li>
+          <li>About</li>
         </Link>
         <Link
           href='/academics'
-          className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'
+          className='font-bold p-[.75rem_0] text-[20px]'
         >
-          <li className='indent-[.5rem] '>Academics</li>
+          <li >Academics</li>
         </Link>
         <Link
           href='/admissions'
-          className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'
+          className='font-bold p-[.75rem_0] text-[20px]'
         >
-          <li className='indent-[.5rem]'>Admissions</li>
+          <li>Admissions</li>
         </Link>
         <Link
           href='/campuslife'
-          className='border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'
+          className='font-bold p-[.75rem_0] text-[20px]'
         >
-          <li className='indent-[.5rem]'>Campus Life</li>
+          <li>Campus Life</li>
         </Link>
       </ul>
     </>
