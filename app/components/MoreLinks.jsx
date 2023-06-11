@@ -13,7 +13,7 @@ const MoreLinks = () => {
   return (
     <>
       <div
-        className='relative flex justify-between items-center w-[60%] md:w-[90%] h-[50px] bg-[#103356] text-[#F1c40F] p-5 lg:w-[33%] cursor-pointer lg:hidden'
+        className='relative flex justify-between items-center w-[60%] md:w-[90%] h-[50px] bg-[#103356] text-[#f1c40f] p-5 lg:w-[33%] cursor-pointer lg:hidden'
         onClick={handleClick}
       >
         <p>{isMore ? 'Less links' : 'More links'}</p>
