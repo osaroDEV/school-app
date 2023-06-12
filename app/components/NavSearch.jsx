@@ -19,7 +19,7 @@ const NavSearch = () => {
         key={link.id}
         className='font-bold xl:font-normal p-[.75rem_0] text-[18px] cursor-pointer'
       >
-        <li className={isActive ? 'text-[#f1c40f]' : 'text-white hover:text-[#f1c40f]'}>{link.name}</li>
+        <li className={isActive ? 'text-[#f1c40f]' : 'text-white hover:text-[#f1c40f] hover:ease-in duration-150'}>{link.name}</li>
       </Link>
     );
   });
