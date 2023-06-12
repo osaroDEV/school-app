@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Carousel from './components/Carousel';
+
 const Home = () => {
   return (
     <main className=''>
@@ -25,6 +27,7 @@ const Home = () => {
             alias quisquam, temporibus similique!
           </p>
         </section>
+        <Carousel />
       </div>
     </main>
   );
