@@ -22,7 +22,7 @@ const Nav = () => {
           )}
         </div>
         {isOpen && (
-          <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-263px] left-[-400%] md:left-[-430px] md:w-[515px] lg:w-[515px] lg:left-[-430px]'>
+          <ul className='flex flex-col justify-around items-center absolute w-[100vw] h-auto bg-[#103356] bottom-[-263px] left-[-400%] md:left-[-430px] md:w-[515px] lg:w-[515px] lg:left-[-430px] z-50'>
             <Link
               href='/'
               className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]' onClick={handleClick}
