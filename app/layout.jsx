@@ -10,6 +10,11 @@ const open = Open_Sans({ subsets: ['latin'] });
 export const metadata = {
   title: 'Lorem Ipsum Schools',
   description: 'Built by osaroDEV',
+  // viewport: {
+  //   width: 'device-width',
+  //   initialScale: 1,
+  //   maximumScale: 1,
+  // },
 };
 
 export default function RootLayout({ children }) {
