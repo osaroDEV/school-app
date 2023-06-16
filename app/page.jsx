@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Carousel from './components/Carousel';
 
 const Home = () => {
+  
   return (
     <>
       <div className='border-y-4 border-[#f1c40f] flex justify-center'>
@@ -30,6 +31,17 @@ const Home = () => {
             doloremque? Possimus corporis repellat autem exercitationem
             inventore doloribus totam deserunt perspiciatis, cupiditate officia
             alias quisquam, temporibus similique!
+          </p>
+          <p className='text-center m-[32px_0]'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            incidunt nemo ullam, repellat animi amet. Qui ab eveniet recusandae
+            eligendi id, quia harum autem nulla, magnam quibusdam mollitia,
+            iusto reprehenderit cumque nihil assumenda quos architecto dicta
+            saepe fugiat reiciendis laboriosam! Atque temporibus tenetur eveniet
+            cumque ullam corporis dolore enim, modi iure nobis sit! Neque totam
+            asperiores omnis architecto magnam reiciendis. Similique officia
+            error minima perferendis iusto earum, inventore animi dicta
+            voluptatum dignissimos quisquam sint nemo?
           </p>
         </section>
         <Carousel />
