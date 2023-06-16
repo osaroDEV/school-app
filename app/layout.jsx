@@ -10,17 +10,12 @@ const open = Open_Sans({ subsets: ['latin'] });
 export const metadata = {
   title: 'Lorem Ipsum Schools',
   description: 'Built by osaroDEV',
-  // viewport: {
-  //   width: 'device-width',
-  //   initialScale: 1,
-  //   maximumScale: 1,
-  // },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='open.className'>
+      <body className={open.className}>
         <section className='flex flex-col md:flex-col-reverse'>
           <Header />
           <NavSearch />

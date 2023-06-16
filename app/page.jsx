@@ -3,10 +3,15 @@ import Carousel from './components/Carousel';
 
 const Home = () => {
   return (
-    <main className='p-[1rem]'>
+    <>
       <div className='border-y-4 border-[#f1c40f] flex justify-center'>
         <section className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1000px] xl:w-[1280px] 2xl:w-[1536px] h-[218px] sm:h-[372px] md:h-[446px] lg:h-[595px] xl:h[744px] 2xl:h-[893px] relative'>
-          <Image src='/images/school.jpg' fill={true} alt='school building' priority />
+          <Image
+            src='/images/school.jpg'
+            fill={true}
+            alt='school building'
+            priority
+          />
         </section>
       </div>
       <div className='p-[48px_0]'>
@@ -29,7 +34,7 @@ const Home = () => {
         </section>
         <Carousel />
       </div>
-    </main>
+    </>
   );
 };
 
