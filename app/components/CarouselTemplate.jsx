@@ -35,7 +35,9 @@ const CarouselTemplate = ({ slides, interval }) => {
   }, [index]);
 
   return (
-    <div className='w-full flex flex-col justify-center items-center'>
+    <div className='w-full flex flex-col justify-center items-center lg:relative'>
+      <div className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1516px] bg-[#103356] h-[130px] lg:hidden'>
+      </div>
       <section className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1516px] h-[180px] sm:h-[372px] md:h-[385px] lg:h-[480px] xl:h[480px] 2xl:h-[893px] relative'>
         <Image src={slides[index].src} fill={true} alt={slides[index].alt} />
         <button
@@ -51,7 +53,7 @@ const CarouselTemplate = ({ slides, interval }) => {
           <FiChevronRight />
         </button>
       </section>
-      <div className='bg-[#252525] w-full text-center text-white p-[1.5rem]'>
+      <div className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1516px] bg-[#103356] lg:bg-[rgba(0,0,0,0.7)]  text-center text-white p-[1.5rem] lg:absolute lg:z-100 lg:bottom-[50px]'>
         <span className='border-l-4 border-[#f1c40f] text-[26px] pl-2'>
           {slides[index].header}
         </span>

@@ -9,7 +9,7 @@ const Carousel = () => {
       para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum?',
     },
     {
-      src: '/images/classroom.jpg',
+      src: '/images/class.jpg',
       alt: 'classroom photo',
       header: 'OUR CLASSROOM',
       para: 'Lorem, ipsum dolor sit amet consectetur adipisicing.',
@@ -23,7 +23,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div className='container'>
+    <div className='w-full'>
       <CarouselTemplate slides={slides} interval={5000} />
     </div>
   );
