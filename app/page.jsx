@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Carousel from './components/Carousel';
 import Events from './components/Events';
+import YouTubeVideo from './components/YouTubeVideo';
 
 const Home = () => {
-  
+  const videoId = 'e5Hc2B50Z7c';
+
   return (
     <>
       <div className='border-y-4 border-[#f1c40f] flex justify-center items-center'>
@@ -47,6 +49,7 @@ const Home = () => {
         </section>
         <Carousel />
         <Events />
+        <YouTubeVideo videoId={videoId} />
       </div>
     </>
   );
