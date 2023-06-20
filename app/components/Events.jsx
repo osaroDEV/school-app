@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Events = () => {
   return (
-    <section className='p-[3rem_0] text-center bg-[#e9e9e9]'>
+    <section className='p-[3rem_0] flex flex-col justify-center items-center text-center bg-[#e9e9e9]'>
       <h2 className='text-[39px] pb-[24px]'>Events</h2>
       <div>
         <section className='p-[0_24px]'>
@@ -13,7 +13,7 @@ const Events = () => {
               </span>
               <span className='bg-[#fff] w-full h-[22px]'>20</span>
             </span>
-            <section className='text-left'>
+            <section className='text-left text-[17px]'>
               <Link href='/' className='font-bold hover:underline'>
                 <h2 className='text-[#143f6a]'>Lorem Ipsum Convocation</h2>
               </Link>
@@ -27,7 +27,7 @@ const Events = () => {
               </span>
               <span className='bg-[#fff] w-full h-[22px]'>12-18</span>
             </span>
-            <section className='text-left'>
+            <section className='text-left text-[17px]'>
               <Link href='/campuslife' className='font-bold hover:underline'>
                 <h2 className='text-[#143f6a]'>Admission Open</h2>
               </Link>
@@ -41,7 +41,7 @@ const Events = () => {
               </span>
               <span className='bg-[#fff] w-full h-[22px]'>17</span>
             </span>
-            <section className='text-left'>
+            <section className='text-left text-[17px]'>
               <Link href='/academics' className='font-bold hover:underline'>
                 <h2 className='text-[#143f6a]'>First Term Kick-off</h2>
               </Link>
@@ -55,7 +55,7 @@ const Events = () => {
               </span>
               <span className='bg-[#fff] w-full h-[22px]'>20</span>
             </span>
-            <section className='text-left'>
+            <section className='text-left text-[17px]'>
               <Link href='/about' className='font-bold hover:underline'>
                 <h2 className='text-[#143f6a]'>Term Ends</h2>
               </Link>

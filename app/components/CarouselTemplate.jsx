@@ -35,7 +35,7 @@ const CarouselTemplate = ({ slides, interval }) => {
   }, [index]);
 
   return (
-    <div className='w-full flex flex-col justify-center items-center lg:relative'>
+    <div className='w-full flex flex-col justify-center items-center mb-12 lg:relative'>
       <div className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1516px] bg-[#103356] h-[130px] lg:hidden'>
       </div>
       <section className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1516px] h-[180px] sm:h-[372px] md:h-[385px] lg:h-[480px] xl:h[480px] 2xl:h-[893px] relative'>
