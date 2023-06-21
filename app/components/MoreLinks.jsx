@@ -56,31 +56,31 @@ const MoreLinks = () => {
       <ul className='hidden flex-col w-[33%] h-auto text-[#2d5267] lg:flex lg:pl-14'>
         <Link
           href='/'
-          className='font-bold p-[.75rem_0] text-[18px]'
+          className='font-bold p-[.75rem_0] text-[18px] hover:underline'
         >
           <li>Home</li>
         </Link>
         <Link
           href='/about'
-          className='font-bold p-[.75rem_0] text-[18px]'
+          className='font-bold p-[.75rem_0] text-[18px] hover:underline'
         >
           <li>About</li>
         </Link>
         <Link
           href='/academics'
-          className='font-bold p-[.75rem_0] text-[18px]'
+          className='font-bold p-[.75rem_0] text-[18px] hover:underline'
         >
-          <li >Academics</li>
+          <li>Academics</li>
         </Link>
         <Link
           href='/admissions'
-          className='font-bold p-[.75rem_0] text-[18px]'
+          className='font-bold p-[.75rem_0] text-[18px] hover:underline'
         >
           <li>Admissions</li>
         </Link>
         <Link
           href='/campuslife'
-          className='font-bold p-[.75rem_0] text-[18px]'
+          className='font-bold p-[.75rem_0] text-[18px] hover:underline'
         >
           <li>Campus Life</li>
         </Link>

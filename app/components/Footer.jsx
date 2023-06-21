@@ -1,5 +1,6 @@
 import React from 'react';
-import { MdSchool } from 'react-icons/md';
+import Image from 'next/image';
+import Link from 'next/link';
 import FooterIcons from './FooterIcons';
 import MoreLinks from './MoreLinks';
 
@@ -9,15 +10,23 @@ const Footer = () => {
       <hr className='hidden lg:block border w-[90%] border-[#019cde] mt-16' />
       <FooterIcons />
       <div className='flex flex-col lg:flex-row lg:w-[90%] justify-center items-center gap-[50px] lg:p-[0_5rem]'>
-        <section className='flex flex-col justify-center items-center lg:order-2 lg:w-[33%]'>
-          <MdSchool className='bg-[transparent] text-[100px] md:text-8xl' />
+        <Link
+          href='/'
+          className='flex flex-col justify-center items-center lg:order-2 lg:w-[33%]'
+        >
+          <Image
+            src='/images/logo.jpg'
+            width={130}
+            height={130}
+            alt='school logo'
+          />
           <div className='text-[#2D5267] flex flex-col gap-2 justify-center items-center'>
             <h1 className='font-extrabold lg:tracking-wider'>
               LOREM IPSUM SCHOOLS
             </h1>
             <p className='text-xs'>Knowledge and Morals</p>
           </div>
-        </section>
+        </Link>
         <section className='flex flex-col justify-center m-[0_5rem] lg:m-[0_auto] lg:order-3 lg:w-[33%] lg:pl-10'>
           <div>
             <p>Lorem Ipsum Schools</p>
