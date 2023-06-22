@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
-import { MdOutlineNavigateNext } from 'react-icons/md';
+import { MdOutlineArrowRight, MdOutlineArrowDropUp} from 'react-icons/md';
 
 const MoreLinks = () => {
   const [isMore, setIsMore] = useState(false);
@@ -16,8 +16,8 @@ const MoreLinks = () => {
         className='relative flex justify-between items-center w-[60%] md:w-[90%] h-[50px] bg-[#103356] text-[#f1c40f] p-5 lg:w-[33%] cursor-pointer lg:hidden'
         onClick={handleClick}
       >
-        <p>{isMore ? 'Less links' : 'More links'}</p>
-        <MdOutlineNavigateNext className='text-[#f1c40f] text-2xl' />
+        <p className='font-bold'>{isMore ? 'Less links' : 'More links'}</p>
+        {isMore ? <MdOutlineArrowDropUp className='text-[#f1c40f] text-4xl' /> : <MdOutlineArrowRight className='text-[#f1c40f] text-4xl' />}
         {isMore && (
           <ul className='flex flex-col justify-around items-center absolute w-full h-auto bg-[#103356] top-[-265px] left-0'>
             <Link
