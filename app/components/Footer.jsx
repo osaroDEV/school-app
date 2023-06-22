@@ -6,7 +6,7 @@ import MoreLinks from './MoreLinks';
 
 const Footer = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-[50px]'>
+    <div className='flex flex-col justify-center items-center gap-[50px] bg-[#fff]'>
       <hr className='hidden lg:block border w-[90%] border-[#019cde] mt-16' />
       <FooterIcons />
       <div className='flex flex-col lg:flex-row lg:w-[90%] justify-center items-center gap-[50px] lg:p-[0_5rem]'>

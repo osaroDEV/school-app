@@ -30,7 +30,7 @@ const MoreLinks = () => {
               href='/about'
               className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]'
             >
-              <li className='indent-[.5rem]'>About</li>
+              <li className='indent-[.5rem]'>About LIS</li>
             </Link>
             <Link
               href='/academics'
@@ -64,7 +64,7 @@ const MoreLinks = () => {
           href='/about'
           className='font-bold p-[.75rem_0] text-[18px] hover:underline'
         >
-          <li>About</li>
+          <li>About LIS</li>
         </Link>
         <Link
           href='/academics'

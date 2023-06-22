@@ -33,7 +33,7 @@ const Nav = () => {
               href='/about'
               className='border-b border-[#ffffaa] font-bold text-xl w-[90%] p-[.75rem_0]' onClick={handleClick}
             >
-              <li className='indent-[.5rem]'>About</li>
+              <li className='indent-[.5rem]'>About LIS</li>
             </Link>
             <Link
               href='/academics'

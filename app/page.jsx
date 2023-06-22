@@ -19,7 +19,7 @@ const Home = () => {
         </section>
       </div>
       <div className='p-[48px_0]'>
-        <section className='p-[0_24px]'>
+        <section className='p-[0_24px] bg-[#fafafa]'>
           <h1 className='text-[32px] text-center'>Lorem Ipsum Schools</h1>
           <p className='text-center m-[32px_0] leading-7'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
