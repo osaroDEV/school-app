@@ -8,7 +8,7 @@ const page = () => {
           <Image
             src='/images/laboratory.jpg'
             fill={true}
-            alt='school building'
+            alt='technician in the laboratory'
             priority
           />
         </section>
