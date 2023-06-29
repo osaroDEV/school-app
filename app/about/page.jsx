@@ -4,14 +4,15 @@ const page = () => {
   return (
     <>
       <div className='border-y-4 border-[#f1c40f] flex justify-center items-center'>
-        <section className='w-[375px] sm:w-[640px] md:w-[768px] lg:w-[1000px] xl:w-[1280px] 2xl:w-[1536px] h-[218px] sm:h-[372px] md:h-[446px] lg:h-[595px] xl:h[744px] 2xl:h-[893px] relative'>
+        <div className='relative w-full' style={{ paddingBottom: '56.25%' }}>
           <Image
             src='/images/laboratory.jpg'
             fill={true}
             alt='technician in the laboratory'
+            quality={75}
             priority
           />
-        </section>
+        </div>
       </div>
       <div className='p-[48px_0]'>
         <section className='p-[0_24px]'>
