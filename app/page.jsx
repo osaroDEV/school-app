@@ -21,8 +21,8 @@ const Home = () => {
       </div>
       <div className='p-[48px_0]'>
         <section className='p-[0_24px] bg-[#fafafa]'>
-          <h1 className='text-[32px] text-center'>Lorem Ipsum Schools</h1>
-          <p className='text-center m-[32px_0] leading-7'>
+          <h1 className='text-[32px] font-bold text-center'>Lorem Ipsum Schools</h1>
+          <p className='text-center m-[32px_0] leading-[1.75]'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             voluptate illo nam, quod nisi voluptas tempore aut ab placeat
             veritatis minus amet ipsum officiis id eum repudiandae animi
@@ -36,7 +36,7 @@ const Home = () => {
             inventore doloribus totam deserunt perspiciatis, cupiditate officia
             alias quisquam, temporibus similique!
           </p>
-          <p className='text-center m-[32px_0] leading-7'>
+          <p className='text-center m-[32px_0] leading-[1.75]'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
             incidunt nemo ullam, repellat animi amet. Qui ab eveniet recusandae
             eligendi id, quia harum autem nulla, magnam quibusdam mollitia,
