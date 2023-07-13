@@ -43,9 +43,9 @@ const Events = () => {
             </span>
             <section className='text-left text-[17px]'>
               <Link href='/academics' className='font-bold hover:underline'>
-                <h2 className='text-[#143f6a]'>First Term Kick-off</h2>
+                <h2 className='text-[#143f6a]'>First Semester Kick-off</h2>
               </Link>
-              <p className='text-[#252525]'>A new term starts...</p>
+              <p className='text-[#252525]'>A new semester starts...</p>
             </section>
           </div>
           <div className='flex items-center gap-5 mb-6'>
@@ -57,9 +57,9 @@ const Events = () => {
             </span>
             <section className='text-left text-[17px]'>
               <Link href='/about' className='font-bold hover:underline'>
-                <h2 className='text-[#143f6a]'>Term Ends</h2>
+                <h2 className='text-[#143f6a]'>Semester Ends</h2>
               </Link>
-              <p className='text-[#252525]'>Wrapping up the term...</p>
+              <p className='text-[#252525]'>Wrapping up the semester...</p>
             </section>
           </div>
         </section>

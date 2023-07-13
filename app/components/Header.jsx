@@ -11,7 +11,7 @@ const Header = () => {
         <Image src='/images/logo.jpg' width={100} height={100} alt='school logo' />
         <div className='text-[#2D5267]'>
           <h1 className='font-extrabold  md:text-4xl lg:tracking-wider'>
-            LOREM IPSUM SCHOOLS
+            LOREM IPSUM UNIVERSITY
           </h1>
           <p className='text-xs md:text-2xl'>Knowledge and Morals</p>
         </div>

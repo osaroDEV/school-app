@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div className='border-y-4 border-[#f1c40f] flex justify-center items-center'>
-      <div className='relative w-full' style={{ paddingBottom: '56.25%' }}>
+        <div className='relative w-full' style={{ paddingBottom: '56.25%' }}>
           <Image
             src='/images/school.jpg'
             fill={true}
@@ -20,8 +20,10 @@ const Home = () => {
         </div>
       </div>
       <div className='p-[48px_0]'>
-        <section className='p-[0_24px] bg-[#fafafa]'>
-          <h1 className='text-[32px] font-bold text-center'>Lorem Ipsum Schools</h1>
+        <section className='p-[0_24px] md:p-[0_80px] bg-[#fafafa]'>
+          <h1 className='text-[32px] font-bold text-center'>
+            Lorem Ipsum University
+          </h1>
           <p className='text-center m-[32px_0] leading-[1.75]'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             voluptate illo nam, quod nisi voluptas tempore aut ab placeat

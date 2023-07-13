@@ -22,14 +22,14 @@ const Footer = () => {
           />
           <div className='text-[#2D5267] flex flex-col gap-2 justify-center items-center'>
             <h1 className='font-extrabold lg:tracking-wider'>
-              LOREM IPSUM SCHOOLS
+              LOREM IPSUM UNIVERSITY
             </h1>
             <p className='text-xs'>Knowledge and Morals</p>
           </div>
         </Link>
         <section className='flex flex-col justify-center m-[0_5rem] lg:m-[0_auto] lg:order-3 lg:w-[33%] lg:pl-10'>
           <div>
-            <p>Lorem Ipsum Schools</p>
+            <p>Lorem Ipsum University</p>
             <p>8787 W. Ali Ave. LakeWood, Utopia 31256</p>
           </div>
           <div className='mt-[10px]'>
@@ -47,7 +47,7 @@ const Footer = () => {
       <hr className='border w-[90%] border-[#019cde]' />
       <section>
         <p className='text-sm text-[rgba(0,0,0,0.6)] mb-16'>
-          &copy;2023 Lorem Ipsum Schools
+          &copy;2023 Lorem Ipsum University
         </p>
       </section>
     </div>

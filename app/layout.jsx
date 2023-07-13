@@ -11,7 +11,7 @@ const noto_display = Noto_Sans_Display({
 });
 
 export const metadata = {
-  title: 'Lorem Ipsum Schools',
+  title: 'Lorem Ipsum University',
   description: 'Built by osaroDEV',
 };
 
