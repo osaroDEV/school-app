@@ -6,7 +6,7 @@ const page = () => {
       <div className='flex justify-center items-center'>
         <div className='relative w-full' style={{ paddingBottom: '56.25%' }}>
           <Image
-            src='/images/laboratory.jpg'
+            src='/images/about.jpg'
             fill={true}
             alt='technician in the laboratory'
             quality={75}

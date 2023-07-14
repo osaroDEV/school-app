@@ -25,29 +25,10 @@ const Home = () => {
             Lorem Ipsum University
           </h1>
           <p className='text-center m-[32px_0] leading-[1.75]'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            voluptate illo nam, quod nisi voluptas tempore aut ab placeat
-            veritatis minus amet ipsum officiis id eum repudiandae animi
-            expedita velit harum libero. Expedita quidem eum, quod velit a sequi
-            molestias praesentium at beatae corporis dignissimos excepturi
-            facere saepe unde culpa exercitationem labore et eaque modi,
-            suscipit placeat nemo? Delectus eos odit quasi perferendis mollitia
-            obcaecati! Minus architecto maiores itaque est tempore. Fugiat,
-            dicta vitae! Ipsa aut quos rem iusto est saepe consectetur eligendi
-            doloremque? Possimus corporis repellat autem exercitationem
-            inventore doloribus totam deserunt perspiciatis, cupiditate officia
-            alias quisquam, temporibus similique!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quae, optio perspiciatis exercitationem eaque esse modi. Odit quos, voluptas veritatis laudantium labore quisquam accusamus corrupti ut incidunt. Delectus sequi in repudiandae repellendus minima laudantium iure corrupti iste quas sapiente consequuntur esse provident, debitis non maxime nulla nemo eligendi quidem voluptatibus deserunt voluptatum. Possimus, expedita in commodi, odit maiores corporis dolores recusandae delectus reiciendis sapiente quod! Eveniet tempore similique doloribus at ea odio a. Deleniti nisi quisquam nulla suscipit.
           </p>
           <p className='text-center m-[32px_0] leading-[1.75]'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            incidunt nemo ullam, repellat animi amet. Qui ab eveniet recusandae
-            eligendi id, quia harum autem nulla, magnam quibusdam mollitia,
-            iusto reprehenderit cumque nihil assumenda quos architecto dicta
-            saepe fugiat reiciendis laboriosam! Atque temporibus tenetur eveniet
-            cumque ullam corporis dolore enim, modi iure nobis sit! Neque totam
-            asperiores omnis architecto magnam reiciendis. Similique officia
-            error minima perferendis iusto earum, inventore animi dicta
-            voluptatum dignissimos quisquam sint nemo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, maxime fuga. Praesentium dolores in beatae maxime aperiam autem saepe ipsa eveniet itaque sed aliquam facere numquam, blanditiis nobis perferendis suscipit odio enim ullam magni asperiores quidem nulla! Dolore nam nulla necessitatibus, voluptatum ad hic quos cumque adipisci quisquam veniam quod? Amet modi doloremque veritatis!
           </p>
         </section>
         <Carousel />

@@ -21,7 +21,7 @@ const Footer = () => {
             alt='school logo'
           />
           <div className='text-[#2D5267] flex flex-col gap-2 justify-center items-center'>
-            <h1 className='font-extrabold lg:tracking-wider'>
+            <h1 className='font-extrabold xl:tracking-wider'>
               LOREM IPSUM UNIVERSITY
             </h1>
             <p className='text-xs'>Knowledge and Morals</p>
