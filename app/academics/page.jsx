@@ -2,11 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const page = () => {
+
+  const prefix = '/academics'
+
   return (
     <>
       <div className='flex justify-center md:justify-evenly lg:justify-center flex-col flex-nowrap md:flex-row md:flex-wrap gap-7 items-center bg-[#aaa] p-7 md:py-14'>
         <Link
-          href='/'
+          href={`${prefix}/undergraduate`}
           className='group relative w-full md:w-[40%] pb-[56.25%] md:pb-[35%] lg:pb-[25%]'
         >
           <Image
@@ -23,7 +26,7 @@ const page = () => {
           </div>
         </Link>
         <Link
-          href='/'
+          href={`${prefix}/adult-degree`}
           className='group relative w-full md:w-[40%] pb-[56.25%] md:pb-[35%] lg:pb-[25%]'
         >
           <Image
@@ -40,7 +43,7 @@ const page = () => {
           </div>
         </Link>
         <Link
-          href='/'
+          href={`${prefix}/graduate`}
           className='group relative w-full md:w-[40%] pb-[56.25%] md:pb-[35%] lg:pb-[25%]'
         >
           <Image
@@ -55,7 +58,7 @@ const page = () => {
           </div>
         </Link>
         <Link
-          href='/'
+          href={`${prefix}/dual-enrollment`}
           className='group relative w-full md:w-[40%] pb-[56.25%] md:pb-[35%] lg:pb-[25%]'
         >
           <Image
