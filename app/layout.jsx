@@ -1,5 +1,4 @@
 import './globals.css';
-import Head from 'next/head';
 import { Noto_Sans_Display } from 'next/font/google';
 import Header from './components/Header';
 import NavSearch from './components/NavSearch';
@@ -19,9 +18,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <Head>
-        <link rel='icon' href='/images/favicon.ico' sizes='any' />
-      </Head>
       <body className={noto_display.className}>
         <section className='flex flex-col md:flex-col-reverse'>
           <Header />
